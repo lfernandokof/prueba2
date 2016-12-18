@@ -10,5 +10,10 @@ app.route("/login")
 def login():
 	return "login.html"
 
+app.route("/log")
+def log():
+	pass
+
+
 if __name__ == '__main__':
     app.run(debug=True)
